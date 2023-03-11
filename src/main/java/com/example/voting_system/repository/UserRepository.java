@@ -1,6 +1,6 @@
 package com.example.voting_system.repository;
 
-import com.example.voting_system.models.User;
+import com.example.voting_system.model.User;
 
 import java.util.Optional;
 
