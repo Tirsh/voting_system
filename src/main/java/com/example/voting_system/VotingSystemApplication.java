@@ -1,5 +1,7 @@
 package com.example.voting_system;
 
+import com.example.voting_system.model.Meal;
+import com.example.voting_system.repository.DataJpaMealRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VotingSystemApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(VotingSystemApplication.class, args);
     }
 
